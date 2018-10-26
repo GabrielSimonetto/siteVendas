@@ -1,0 +1,10 @@
+#search {
+    padding-bottom: 15px;
+}
+
+#external {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(51, 59, 63);
+}
