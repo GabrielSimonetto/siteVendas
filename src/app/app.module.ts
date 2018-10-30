@@ -8,6 +8,7 @@ import { FooterComponent } from './template/footer/footer.component';
 import { ListaProdutosComponent } from './components/home/lista-produtos/lista-produtos.component';
 import { FiltroComponent } from './components/home/filtro/filtro.component';
 import { HomeComponent } from './components/home/home.component';
+import { InfoProdutoComponent } from './components/home/info-produto/info-produto.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './components/home/home.component';
     FooterComponent,
     ListaProdutosComponent,
     FiltroComponent,
-    HomeComponent
+    HomeComponent,
+    InfoProdutoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,24 @@
-div {
+div.list-group {
     padding-left: 20px;
+}
+img {
+    max-width: 140px;
+    text-align: end;
+}
+#produto {
+    font-size: 40px;
+    text-align: left;
+    display: inline;
+
+}
+div.imagem {
+    display: inline;
+    text-align: end;
+}
+div.info {
+    display: inline;
+    font-size: 30px;
+    float: right;
+    color: green;
+    
 }
