@@ -1,6 +1,10 @@
 div.list-group {
     padding-left: 20px;
 }
+a {
+    border: 3px solid black;
+    border-radius: 10px;
+=======
 img {
     max-width: 140px;
     text-align: end;
@@ -20,5 +24,4 @@ div.info {
     font-size: 30px;
     float: right;
     color: green;
-    
 }
