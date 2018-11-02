@@ -1,20 +1,20 @@
 <div id="external">
-  <form class="form-inline my-2 my-lg-0" id="search">
-    <input class="form-control mr-sm-2" type="search" placeholder=". . ." aria-label="Search">
-    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+  <form class="form-inline my-2 my-lg-0 " id="search">
+    <input class="form-control mr-md-2 form-control tey" (keyup)=" settar()" [ngModelOptions]="{standalone: true}" [(ngModel)]="name" type="search" placeholder=". . ." aria-label="Search">
   </form>
   <div class="btn-group" role="group" id="buttons">
-    <button class="btn btn-light">
+    <button class="btn btn-light" (click)="this.sortService.setButton(1)">
       <img src="assets/carro.png"> <br/>
       <label>Automóveis</label>
     </button>
-    <button class="btn btn-light">
+    <button class="btn btn-light" (click)="this.sortService.setButton(2)">
       <img src="assets/pc.png"> <br/>
       <label>Eletrônicos</label>
     </button>
-    <button class="btn btn-light">
+    <button class="btn btn-light" (click)="this.sortService.setButton(3)">
       <img src="assets/casa.png"> <br/>
       <label>Para Casa</label>
     </button>
   </div>
+  <button class="btn btn-primary" (click)="limpar()" id="reset">Limpar Filtros</button>
 </div>

@@ -1,10 +1,13 @@
 <div class="list-group">
-  <a id="produto" routerLink="/info/{{produto.id}}" *ngFor="let produto of lista" class="list-group-item list-group-item-action">
-    <div class="imagem">
-      <img  [src]="produto.img">
-    </div>
-     {{produto.nome}}
-     <div class="info">
-    Preço: {{produto.preco}}<br/> </div>
-  </a>
-</div>
+  
+    <a id="produto" routerLink="/info/{{produto.id}}"  *ngFor="let produto of listaFiltrada()" class="list-group-item list-group-item-action">
+
+      <div class="imagem">
+        <img [src]="produto.img">
+      </div>
+      {{produto.nome}}
+      <div class="info">
+        Preço: {{produto.preco}}<br /> </div>
+
+    </a>
+  </div>

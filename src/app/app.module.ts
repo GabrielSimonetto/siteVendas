@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { SortService } from './services/sort.service';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
@@ -23,10 +24,11 @@ import { InfoProdutoComponent } from './components/home/info-produto/info-produt
     InfoProdutoComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SortService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

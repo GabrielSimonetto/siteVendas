@@ -1,1 +1,14 @@
-<div class="container" style="text-align: center;">{{lista[id].nome}} </div>
+<div class="container-fluid" >
+    <div class="row">
+        <div class="col-2"></div>
+            <div class="col-4">
+                <img class="produto" [src]="lista[id].img">
+            </div>
+            <div class="col-3">
+                <h1>Produto: {{lista[id].nome}}</h1>
+                <img class="money" src="https://image.flaticon.com/icons/svg/138/138279.svg"> 
+                <h2>{{ lista[id].preco }}</h2>
+                <p>{{ lista[id].descricao }}</p>
+            </div>
+    </div>
+</div>

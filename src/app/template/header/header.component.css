@@ -6,3 +6,12 @@ a {
     color: cyan;
     border-color: cyan;
 }
+.navbar{
+    height: 100px;
+}
+.navbar-brand{
+    font-size: 35px;
+}
+.nav-link{
+    font-size: 27px;
+}

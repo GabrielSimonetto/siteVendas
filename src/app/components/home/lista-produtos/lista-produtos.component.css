@@ -2,9 +2,8 @@ div.list-group {
     padding-left: 20px;
 }
 a {
-    border: 3px solid black;
-    border-radius: 10px;
-=======
+    border: 2px solid black;
+}
 img {
     max-width: 140px;
     text-align: end;
@@ -24,4 +23,11 @@ div.info {
     font-size: 30px;
     float: right;
     color: green;
+}
+.list-group-item{
+    background: white;
+    margin: 5px;
+}
+#produto{
+    color: black;
 }
