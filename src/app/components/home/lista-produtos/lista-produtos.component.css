@@ -1,6 +1,4 @@
-div.list-group {
-    padding-left: 20px;
-}
+
 a {
     border: 2px solid black;
 }
@@ -30,4 +28,13 @@ div.info {
 }
 #produto{
     color: black;
+}
+#tey{
+    background-color: rgb(53, 59, 63);
+    padding: 40px;
+    border-radius: 20px;
+}
+.list-group-item:hover {
+    background:rgb(212, 212, 212);
+    transition: 0.5s;
 }

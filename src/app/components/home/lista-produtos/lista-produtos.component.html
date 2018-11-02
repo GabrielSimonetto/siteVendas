@@ -1,6 +1,7 @@
+<div id="tey">
 <div class="list-group">
   
-    <a id="produto" routerLink="/info/{{produto.id}}"  *ngFor="let produto of listaFiltrada()" class="list-group-item list-group-item-action">
+    <a id="produto" routerLink="/info/{{produto.id}}" (keyup)="listaFiltrada()" *ngFor="let produto of listaFiltrada()" class="list-group-item list-group-item-action">
 
       <div class="imagem">
         <img [src]="produto.img">
@@ -10,4 +11,5 @@
         Preço: {{produto.preco}}<br /> </div>
 
     </a>
+  </div>
   </div>
